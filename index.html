@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Problema de la mochila</title>
+</head>
+<body>
+	<div class="container">
+		<div class="entradaDatos">
+			<label>Peso límite  <input type="text" id="PesoLim"></label><br>
+			<label>Numero de artículos <input type="text" id="numArticulos"></label><br>
+			<input type="button" id="IngresoArt" onclick="CrearEspacios()" value="Abrir campos">
+			<div id="entradaPeso">
+				<h4 class="lblEntrada">Ingrese el peso de los articulos</h4>
+			</div>
+			<div id="entradaValor">
+				<h4 class="lblEntrada">Ingrese el valor de los articulos</h4>
+			</div>		
+		</div>
+		<input type="button" id="Resolver" value="Resolver problema de la mochila" onclick="Resolver()">
+		<div id="solucion"></div>
+	</div>
+</body>
+</html>

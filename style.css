@@ -1,0 +1,71 @@
+html{
+	font-size: 16px;
+}
+
+body{
+	background-color: #8FBFE0;
+}
+
+.container{
+	text-align: center;
+}
+
+.entradaDatos{
+	color: white;
+	margin: 1em;
+	padding: 1em;
+	border-radius: .8em;
+	background-color: #1F7A8C;
+}
+
+.lblEntrada{
+	display: none;
+}
+
+#solucion{
+	padding: 1em;
+	border-radius: .8em;
+	background-color: #1F7A8C;
+
+}
+
+#PesoLim{
+	margin-bottom: 2em;
+	width: 20px;
+}
+
+#numArticulos{
+	margin-bottom: 2em;
+	width: 20px;
+}
+
+#Resolver{
+	display: none;
+}
+
+#solucion{
+	margin: 2em;
+}
+
+table{
+	color: white;
+	margin: 0 auto;
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+thead, tbody, th, tr, td{
+	border:  1px solid white;
+}
+
+.celdaVal{
+	color: #90C3C8;
+}
+
+.celdaArt{
+	color: #14FFF7;
+}
+
+.celdaArt, .celdaVal{
+	margin: .2em;
+}
